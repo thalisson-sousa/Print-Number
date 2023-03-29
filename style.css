@@ -1,0 +1,51 @@
+body {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 0;
+}
+
+main {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.result {
+    margin: 1em 0;
+}
+
+footer {
+    position:absolute;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        display: block;
+        margin: 30vh 0;
+    }
+
+    main {
+        height: auto;
+        margin: 20px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    footer {
+        margin: 5px 60px;
+    }
+
+}
